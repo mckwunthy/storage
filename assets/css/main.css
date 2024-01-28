@@ -1,0 +1,38 @@
+body {
+    margin: 10px;
+    width: 70%;
+    text-align: justify;
+}
+
+.color-sombre {
+    background-color: black;
+    color: white;
+}
+
+.color-standard {
+    background-color: white;
+    color: black;
+}
+
+.color-blue {
+    background-color: blue;
+    color: red;
+}
+
+#colorOption {
+    background-color: white;
+    border: 5px solid orange;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#default,
+#sombre,
+#blue {
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
